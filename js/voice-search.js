@@ -2,6 +2,8 @@
 const voiceSearch = document.querySelector(".voice-search");
 let microAceptado = false;
 
+var cable = 2
+
 const voiceSearchModalOpen = ()=>{
 	voiceSearch.style.display = "flex";
 	voiceSearch.style.animation = "aparecer 0.5s forwards";
